@@ -47,3 +47,28 @@ All HTML documents follow a common structure:
 
 ---
 
+## 🔹 Headings
+
+Headings define the structure and hierarchy of your content.
+
+```html
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+<h3>Smaller Subheading</h3>
+```
+
+### 📝 Description:
+
+- `<h1>` is the **most important heading** (usually the main title).
+- `<h6>` is the **least important** and smallest in size.
+
+**For best practices in SEO and accessibility:**
+- ✅ Use **only one `<h1>`** per page.
+- 🧠 Use `<h2>` to `<h6>` to organize content into sections and subsections.
+
+### 🛠 Try it:
+
+Add multiple headings to your HTML page (from `<h1>` to `<h6>`) and open it in your browser.  
+Observe how their **size decreases** and how they help **organize content** visually.
+
+---
