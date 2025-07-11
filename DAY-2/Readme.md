@@ -36,3 +36,14 @@ All HTML documents follow a common structure:
   </body>
 </html>
 ```
+
+### 📝 Description of Each Element:
+
+- `<!DOCTYPE html>`: Declares the document type and version of HTML (HTML5 in this case).
+- `<html>`: The root element that wraps the entire HTML content.
+- `<head>`: Contains meta-information such as the title, character set, styles, and links to resources (not displayed on the webpage).
+- `<title>`: Sets the title of the page, which appears in the browser tab.
+- `<body>`: Contains all the visible content on the web page such as headings, paragraphs, images, links, and more.
+
+---
+
