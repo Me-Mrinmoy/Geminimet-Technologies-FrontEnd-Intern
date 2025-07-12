@@ -113,3 +113,54 @@ HTML provides simple tags to control text layout and content separation.
 
 ---
 
+## 🔹 HTML Lists
+
+### 📌 Unordered List:
+
+```html
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+```
+
+### 📌 Ordered List:
+
+```html
+<ol>
+  <li>Login to the site</li>
+  <li>Navigate to dashboard</li>
+  <li>Start learning</li>
+</ol>
+```
+
+### 📝 Description:
+
+- `<ul>` creates a **bulleted list**
+- `<ol>` creates a **numbered list**
+- `<li>` represents each **item** in the list
+
+### 🛠 Practice:
+
+Create a **to-do list** on your HTML page using both `<ol>` and `<ul>` elements.
+
+### 💡 Example:
+
+```html
+<h2>Today's To-Do List</h2>
+
+<ol>
+  <li>Wake up</li>
+  <li>Check emails</li>
+  <li>Complete HTML assignment</li>
+</ol>
+
+<h3>Technologies to Learn</h3>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+```
