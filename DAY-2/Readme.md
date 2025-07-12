@@ -72,3 +72,19 @@ Add multiple headings to your HTML page (from `<h1>` to `<h6>`) and open it in y
 Observe how their **size decreases** and how they help **organize content** visually.
 
 ---
+
+## 🔹 Paragraphs
+
+Use the `<p>` tag to define blocks of text content.
+
+```html
+<p>This is a paragraph of text.</p>
+```
+
+### 📝 Description:
+
+- Paragraphs improve **readability** by grouping related sentences together.
+- They automatically create **space between content blocks**, making your webpage cleaner and more structured.
+
+---
+
