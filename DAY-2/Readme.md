@@ -88,3 +88,28 @@ Use the `<p>` tag to define blocks of text content.
 
 ---
 
+## 🔹 Line Breaks & Horizontal Lines
+
+HTML provides simple tags to control text layout and content separation.
+
+### 🧩 Examples:
+
+```html
+<p>This is the first line.<br>This is the second line.</p>
+<hr>
+```
+
+### 📝 Description:
+
+- `<br>`: Inserts a **line break** inside a paragraph without starting a new one.  
+  Useful when you want text to continue on a new line within the same block.
+- `<hr>`: Inserts a **horizontal rule** (a thin line) to visually divide content or sections on the page.
+
+
+### 🛠 Try it:
+
+1. Add a `<br>` tag between two sentences inside a `<p>` element and view the result.
+2. Insert a `<hr>` tag between two sections on your webpage to see a horizontal line.
+
+---
+
