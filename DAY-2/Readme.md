@@ -189,3 +189,28 @@ Create links to your favorite websites using the `<a>` tag.
 <a href="https://www.github.com" target="_blank">Visit GitHub</a>
 <a href="https://www.youtube.com" target="_blank">Watch YouTube</a>
 ```
+
+---
+
+## 🔹 HTML Images
+
+```html
+<img src="https://via.placeholder.com/150" alt="Placeholder Image">
+```
+
+### 📝 Description:
+
+- `src`: The **URL or file path** of the image to display.
+- `alt`: The **fallback text** shown if the image fails to load (also helps with screen readers and SEO).
+
+### 🛠 Challenge:
+
+Add an image of your choice and make it **clickable** using the format below:
+
+```html
+<a href="https://your-link.com" target="_blank">
+  <img src="your-image.jpg" alt="Description">
+</a>
+```
+
+---
