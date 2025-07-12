@@ -164,3 +164,28 @@ Create a **to-do list** on your HTML page using both `<ol>` and `<ul>` elements.
   <li>JavaScript</li>
 </ul>
 ```
+
+---
+
+## 🔹 HTML Links
+
+```html
+<a href="https://www.google.com">Visit Google</a>
+<a href="https://example.com" target="_blank">Open in New Tab</a>
+```
+
+### 📝 Description:
+
+- `href`: Specifies the **URL** to navigate to when the link is clicked.
+- `target="_blank"`: Opens the link in a **new browser tab**, allowing users to stay on your page.
+
+### 🛠 Try it:
+
+Create links to your favorite websites using the `<a>` tag.
+
+### 💡 Example:
+
+```html
+<a href="https://www.github.com" target="_blank">Visit GitHub</a>
+<a href="https://www.youtube.com" target="_blank">Watch YouTube</a>
+```
