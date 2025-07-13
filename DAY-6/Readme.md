@@ -1,4 +1,4 @@
-## 📘 Day 6: Introduction to CSS – Inline, Internal, External CSS & Selectors
+# 📘 Day 6: Introduction to CSS – Inline, Internal, External CSS & Selectors
 
 ---
 
