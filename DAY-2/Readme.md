@@ -377,3 +377,48 @@ Structure your page using semantic tags such as:
 
 ---
 
+## 🔹 Final Activity
+
+🎯 **Build a Simple Profile Page**
+
+Include the following elements in your HTML page:
+
+- `<h1>` with your **name**
+- `<p>` introducing yourself
+- `<ul>` listing your **hobbies**
+- `<img>` of yourself or a placeholder image
+- `<a>` linking to your **favorite website**
+- `<table>` showing your **weekly schedule**
+
+💾 **Save the file as** `profile.html` and open it in your browser to see your creation!
+
+---
+
+## 🏁 Wrap-Up & Homework
+
+### ✅ Review
+
+Today, you learned:
+
+- 📄 Basic **HTML structure**
+- 📝 How to use **headings**, **paragraphs**, and **lists**
+- 🔗 How to add **links**, **images**, **tables**, and **forms**
+- 🧱 An **introduction to semantic HTML**
+
+---
+
+### 🏠 Homework
+
+✍️ **Create a second page:**
+
+- File name: `about.html`  
+- Content: Info about your **interests**
+- ✅ Link it from `profile.html` using an `<a>` tag
+
+🔍 **Explore:**
+
+- Visit **2–3 websites**
+- Use **Right Click → View Page Source**
+- Observe how they structure their HTML code
+
+---
