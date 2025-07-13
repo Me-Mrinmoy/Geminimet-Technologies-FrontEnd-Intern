@@ -214,3 +214,166 @@ Add an image of your choice and make it **clickable** using the format below:
 ```
 
 ---
+
+## 🔹 HTML Tables
+
+```html
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Bob</td>
+    <td>25</td>
+  </tr>
+</table>
+```
+
+### 📝 Description:
+
+- `<table>`: Wraps the entire table.
+- `<tr>`: Defines a **table row**.
+- `<th>`: Table **header cell**, bold and centered by default.
+- `<td>`: Table **data cell**, contains actual values.
+
+### 🛠 Try it:
+
+Create your own HTML table showing:
+
+✅ Your **weekly class schedule**  
+✅ A **list of favorite books**, including title and author  
+✅ Or a table of any **structured data** you like!
+
+### 💡 Example:
+
+```html
+<table border="1">
+  <tr>
+    <th>Day</th>
+    <th>Subject</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>Web Development</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>Data Structures</td>
+  </tr>
+</table>
+```
+
+---
+
+## 🔹 HTML Forms (Introduction)
+
+```html
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+### 📝 Description:
+
+- `<form>`: Container for **collecting user input**
+- `<label>`: Describes the **input field**
+- `<input>`: Allows the user to **enter data**  
+  Common types: `text`, `email`, `password`
+
+✳️ More input types like `<textarea>`, **radio buttons**, and **dropdowns** will be introduced later.
+
+### 🛠 Try it:
+
+Build a basic form on your HTML page with the following:
+
+✅ A **Name** input field  
+✅ An **Email** input field  
+✅ A **Submit** button
+
+### 💡 Example:
+
+```html
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+```
+
+---
+
+## 🔹 Semantic HTML (Intro)
+
+```html
+<header>
+  <h1>My Blog</h1>
+</header>
+<main>
+  <section>
+    <h2>Latest Posts</h2>
+    <p>Welcome to my blog...</p>
+  </section>
+</main>
+```
+
+### 📝 Description:
+
+Semantic HTML elements describe their meaning **clearly** to both developers and browsers:
+
+- `<header>`: Intro or branding section  
+- `<main>`: Primary content area  
+- `<section>`: Thematic grouping of content
+
+These tags improve:
+
+✅ **SEO**  
+✅ **Accessibility**  
+✅ **Code readability**
+
+### 🛠 Try it:
+
+Structure your page using semantic tags such as:
+
+- `<header>`
+- `<main>`
+- `<section>`
+- `<footer>`
+
+### 💡 Example:
+
+```html
+<header>
+  <h1>My Portfolio</h1>
+</header>
+
+<main>
+  <section>
+    <h2>About Me</h2>
+    <p>I am learning web development!</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <p>Check out some of my work.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Mrinmoy</p>
+</footer>
+```
+
+---
+
