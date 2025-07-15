@@ -434,3 +434,140 @@ footer {
 }
 ```
 
+---
+
+## 🎯 Mini Project: Styled Product Landing Page (Positioning Focus)
+
+This mini project demonstrates how to use different CSS `position` properties and `display` techniques in a real-world layout like a product landing page.
+
+### 🛠️ Task Breakdown
+
+✅ Use **relative positioning** for elements that should shift slightly.  
+✅ Use **absolute positioning** for a floating action button inside a container.  
+✅ Use **fixed positioning** for a navigation bar that stays at the top during scroll.
+
+#### ✅ Solution
+#### ✅ HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">🚀 My Product</header>
+
+  <section class="hero-section">
+    <h1 class="tagline">Innovate with Confidence</h1>
+    <p>Empower your productivity with our latest tech.</p>
+
+    <div class="cta-container">
+      <button class="cta-button">Buy Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mrinmoy Samanta. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+```
+
+#### 🎨 CSS
+```css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 70px;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.hero-section {
+  background-color: white;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.tagline {
+  position: relative;
+  top: 5px; /* Slight movement using relative */
+  font-size: 2rem;
+  color: #444;
+}
+
+.cta-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+  background-color: #f1f1f1;
+}
+
+.cta-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+  margin-top: 60px;
+}
+```
+
+---
+
+## 🎯 Summary (Day 9)
+
+By the end of **Day 9**, you've gained practical knowledge of:
+
+### 🧱 Display Types
+
+- `block`: Starts on a new line, takes full width  
+- `inline`: Flows within text, no width/height control  
+- `inline-block`: Like inline, but supports width & height  
+- `none`: Hides the element completely from layout
+
+### 📐 Float & Clear
+
+- `float: left | right`: Aligns elements beside text or other elements  
+- `clear: both`: Ensures next elements start below floated content
+
+### 📍 CSS Positioning
+
+- `static`: Default positioning in the normal document flow  
+- `relative`: Moves element slightly from its original position  
+- `absolute`: Removed from flow, positioned inside nearest `relative`/`absolute`/`fixed` ancestor  
+- `fixed`: Always stays in the same place relative to the viewport  
+- `sticky`: Acts like `relative` until a scroll point, then sticks like `fixed`
+
+✅ You now have the **foundation** to build **advanced, responsive layouts** using CSS layout systems like Flexbox and Grid.
+
+🚀 Keep building, keep experimenting!
