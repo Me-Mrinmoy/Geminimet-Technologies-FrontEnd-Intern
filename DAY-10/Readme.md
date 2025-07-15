@@ -264,6 +264,30 @@ footer {
 
 ---
 
+## 📈 Explanation of Key CSS Concepts
+
+### Fixed Navigation Bar
+
+* Positioned using `position: fixed` so it remains visible during scrolling.
+* `z-index: 1000` ensures it appears above all other content.
+
+### Hero Section
+
+* Uses `background-image` with `background-size: cover` to fully fill the section.
+* `display: flex` is used to center the content horizontally and vertically.
+
+### Product Features Section
+
+* Flexbox aligns feature cards horizontally.
+* Cards styled with `padding`, `border-radius`, and `box-shadow` for emphasis.
+
+### Responsive Design
+
+* `@media` queries adjust layout for smaller screens.
+* Features stack vertically on devices <768px for better usability.
+
+---
+
 ## ✅ Summary
 
 In this mini project, you applied:
