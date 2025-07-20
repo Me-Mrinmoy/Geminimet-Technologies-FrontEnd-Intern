@@ -1,6 +1,6 @@
 # 📅 Day 18: Website Project – Part 2 (Styling)
 
-### 🎯 Objective:
+### 🌟 Objective:
 
 By the end of Day 18, trainees will:
 
@@ -132,7 +132,7 @@ footer {
 
 Once the basic styling is complete, you can focus on further refining your website:
 
-#### 🖋️ Typography
+#### 🔋 Typography
 
 * Choose a complementary font combination for headings and body text.
 * Use **Google Fonts** to integrate custom fonts (e.g., `Roboto` for the body and `Montserrat` for headings).
@@ -169,4 +169,32 @@ Once the basic styling is complete, you can focus on further refining your websi
 * Great for **portfolio galleries**, **feature lists**, or **multi-column sections**.
 
 ---
+
+### 🤪 Hands-On Activity:
+
+#### 🔹 Create a New CSS File:
+
+* Open your text editor and create a new `styles.css` file.
+* Link the CSS file to your HTML document using:
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+#### 🔹 Apply the Basic Styles:
+
+* Style the `body`, `header`, `navigation`, and `footer` as demonstrated above.
+
+#### 🔹 Make Your Website Responsive:
+
+* Use `@media` queries for screen width adjustments.
+
+#### 🔹 Refine Your Design:
+
+* Polish typography using `Google Fonts`.
+* Add images like a hero banner or thumbnails.
+* Test responsiveness on devices of different screen sizes.
+
+---
+
 
