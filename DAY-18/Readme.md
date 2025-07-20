@@ -50,3 +50,151 @@ You will begin by applying basic CSS styles to elements like the header, body, a
 
 ---
 
+### 🔹 Step-by-Step Process for Applying CSS to Your Website
+
+#### 1. Set Up the CSS File
+
+Ensure that your HTML file is linked to your CSS file using:
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+Place this inside the `<head>` section. Ensure the `styles.css` file is in the same directory as your HTML file.
+
+#### 2. Apply Basic Styles to the Body
+
+```css
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+```
+
+**Explanation:**
+
+* `font-family`: Sets the default font for the website.
+* `background-color`: Light gray background for the page.
+* `color`: Dark gray text color.
+* `margin`, `padding`: Resets default spacing.
+
+#### 3. Style the Header and Navigation
+
+```css
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+```
+
+**Explanation:**
+
+* `header`: Dark background and white text.
+* `nav ul`: Flexbox layout, center aligned.
+* `nav ul li`: Adds space between links.
+* `nav ul li a`: Styled links with hover effect.
+
+#### 4. Style the Main Content Sections
+
+```css
+section {
+    padding: 50px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+```
+
+**Explanation:**
+
+* `section`: Spacing and box shadow for depth.
+* `h1, h2`: Clear heading color.
+* `p`: Readable font size and spacing.
+
+#### 5. Style the Footer
+
+```css
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6347;
+}
+```
+
+**Explanation:**
+
+* `footer`: Dark background, centered content.
+* `footer a`: White links, hover effect.
+
+#### 6. Implement Responsive Design with Media Queries
+
+```css
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
+```
+
+**Explanation:**
+
+* Applies to screens 768px or smaller.
+* Changes nav to vertical stack.
+* Reduces section padding for better fit.
+
+---
+
+This guide helps you implement a fully styled and responsive layout for your website using clean and modern CSS.
