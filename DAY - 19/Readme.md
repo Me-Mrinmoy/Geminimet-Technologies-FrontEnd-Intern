@@ -156,3 +156,48 @@ a i:hover {
   - ✅ **SVG icons** (custom or downloaded)
 
 ---
+
+## 🔹 3. Implementing Interactive Styles
+
+Interactive elements are crucial for creating a dynamic and engaging website. On this day, we apply `hover`, `active`, and `focus` styles to buttons, links, and other interactive components to enhance user experience.
+
+### 🎯 Objective
+
+- Understand how to style interactive elements.
+- Learn to use `:hover`, `:active`, and `:focus` pseudo-classes in CSS.
+- Make your site more accessible and responsive to different user actions.
+
+### 🧪 Hover Effects for Buttons:
+```css
+button:hover {
+    background-color: #ff6347;
+}
+
+button:active {
+    background-color: #e5533d; /* Darker shade when clicked */
+}
+
+button:focus {
+    outline: 3px solid #ff6347; /* Focus outline for accessibility */
+}
+```
+
+### 💬 Explanation
+
+- `button:hover`: Changes the background color of the button when hovered.
+- `button:active`: Changes the background color when the button is actively clicked.
+- `button:focus`: Adds a visible outline when the button is focused (keyboard navigation or screen readers), improving accessibility.
+
+### 🔗 Hover Effercts for Links:
+```css
+a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+```
+
+### 💬 Explanation
+
+* `a:hover`: Enhances links by changing their color and adding an underline when hovered, providing visual feedback to the user.
+
+---
