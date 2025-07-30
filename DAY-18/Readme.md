@@ -197,4 +197,17 @@ Once the basic styling is complete, you can focus on further refining your websi
 
 ---
 
+### 🔹 Summary:
+On **Day 18**, trainees learned how to apply **CSS styles** to the base HTML structure created on **Day 17**. This involved:
 
+- 🎨 Styling the **header, navigation, sections, and footer** to create a visually appealing layout.
+- 📱 Implementing **responsive design** techniques using **media queries** to adjust the layout for **mobile** and **tablet** screens.
+- 🖋️ Enhancing the visual design with **typography, background images**, and **buttons**.
+
+### ✅ Outcome:
+By the end of the day, trainees will have a **fully styled and responsive portfolio or product website** that’s:
+- ✔️ Visually appealing  
+- ✔️ Responsive across devices  
+- ✔️ Designed with modern CSS best practices
+
+---
