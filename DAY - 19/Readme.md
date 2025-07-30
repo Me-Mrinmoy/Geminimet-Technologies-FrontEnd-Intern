@@ -89,3 +89,28 @@ button:hover {
 }
 ```
 
+---
+
+## 🔹 Using Icons (FontAwesome)
+
+Icons are small, scalable graphics that help enhance the user experience and provide visual cues to users.  
+They are commonly used in:
+
+- 🌐 Social media links
+- 🔄 Navigation buttons
+- ✨ Decorative and accessibility elements
+
+### 📦 How to Use Icons (FontAwesome Example)
+
+- 1.Include FontAwesome CDN (Content Delivery Network) Link:
+```html
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+```
+
+- 2.Using Icons in HTML:
+```html
+<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+<a href="https://twitter.com"><i class="fab fa-twitter"></i></a
+```
