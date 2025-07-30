@@ -131,5 +131,28 @@ You can also use other icon libraries based on your project’s needs:
 ✅ [Bootstrap Icons](https://icons.getbootstrap.com/)  
 ✅ SVG icons (custom or downloaded and embedded)
 
----
+### 🎨 Styling the Icons
+```css
+a i {
+  font-size: 2rem;
+  color: #333;
+  margin: 0 15px;
+}
 
+a i:hover {
+  color: #ff6347;
+}
+```
+
+### 💬 Explanation
+
+- The `<i>` tag is used to display the icon.
+- The `class` attribute (e.g., `fab fa-facebook`) tells **FontAwesome** which specific icon to render.
+- In the example, clickable **Facebook** and **Twitter** icons are shown using anchor (`<a>`) tags.
+- These icons serve as links to social media platforms.
+- You can use alternative icon libraries based on your project needs:
+  - ✅ **Material Icons** (by Google)
+  - ✅ **Bootstrap Icons**
+  - ✅ **SVG icons** (custom or downloaded)
+
+---
