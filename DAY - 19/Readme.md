@@ -201,3 +201,31 @@ a:hover {
 * `a:hover`: Enhances links by changing their color and adding an underline when hovered, providing visual feedback to the user.
 
 ---
+
+## 🔹 4. Ensuring Accessibility and Usability
+
+Accessibility is a key aspect of web development. This section focuses on making your website usable by everyone, including users with disabilities.
+
+### ✅ Key Practices:
+
+- Ensure forms are easy to navigate with **clear labels**.
+- Provide **visible focus states** for users navigating via keyboard.
+- Maintain **high color contrast** for readability.
+- Use **ARIA (Accessible Rich Internet Applications)** attributes to support screen readers.
+
+### 🧩 Example Code:
+
+```html
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" aria-label="Enter your full name">
+```
+
+### 💬 Explanation
+
+- `<label for="name">`: Associates the label with the input using the `for` and `id` attributes, ensuring screen readers and assistive technologies can identify the form field correctly.
+
+- `aria-label`: Adds an accessible name to the input field that can be read by screen readers, especially helpful when no visible label is used or to provide extra context.
+
+These attributes together enhance the usability and accessibility of your forms, making them more inclusive for users relying on assistive tools.
+
+---
